@@ -97,7 +97,6 @@ app.get("/posts", (req, res) => {
   </head>
   <body>
     <h1>Total Posts: ${posts.length}</h1>
-    <p><a class="download-all-btn" href="/download-all">⬇ Download All as ZIP</a></p>
     <ul>
   `;
   posts.forEach((post, index) => {
